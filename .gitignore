@@ -1,0 +1,20 @@
+# Ocultar chaves e configurações locais
+.env
+
+# Ignorar o arquivo de banco de dados do SQLite (para não subir dados de teste)
+banco.db
+
+# Ignorar a pasta do ambiente virtual (muito pesada para o GitHub)
+.venv/
+venv/
+env/
+
+# Ignorar arquivos temporários que o Python gera sozinho
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Ignorar pastas de configuração do VS Code (opcional, mas profissional)
+.vscode/
